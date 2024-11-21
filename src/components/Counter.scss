@@ -1,0 +1,55 @@
+.counter-wrapper {
+  background-color: #e4dbf2;
+  display: flex;
+  width: 700px;
+  margin: auto;
+  padding-block: 2.75rem;
+  border-radius: 8px;
+  flex-direction: column;
+
+  .title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+
+    img {
+      max-width: 80px;
+    }
+
+    h2 {
+      color: #916ec9;
+      font-size: 1.95rem;
+    }
+  }
+
+  .counter-app {
+    margin-top: 2rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.65rem;
+    gap: 1.5rem;
+
+    span {
+      color: #916ec9;
+      font-size: 1.95rem;
+    }
+
+    button {
+      background-color: #916ec9;
+      border: none;
+      color: white;
+      padding-inline: 0.95rem;
+      font-size: 2rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #bba5de;
+      }
+    }
+  }
+}
